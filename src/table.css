@@ -1,0 +1,15 @@
+.table-input{
+  outline: none;
+  padding: 0.5em;
+  margin:0 0.5em;
+  max-width: 4em;
+  border: 2px solid var(--white);
+  transition: border ease-in-out 0.1s;
+  -webkit-appearance: none;
+  appearance: none;
+  color: var(--white);
+}
+
+.table-input:focus{
+  border-color:var(--light-blue);
+}
